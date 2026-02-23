@@ -25,7 +25,7 @@
 |----------|--------|----------|------------|
 | **macOS** | Available | [Releases](https://github.com/TypeWhisper/typewhisper-mac/releases) | [typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) |
 | **Windows** | Available | [Releases](https://github.com/TypeWhisper/typewhisper-win/releases) | [typewhisper-win](https://github.com/TypeWhisper/typewhisper-win) |
-| **iOS** | Beta | [TestFlight](https://testflight.apple.com/join/kcCS3hcZ) | Coming soon |
+| **iOS** | Beta | [TestFlight](https://testflight.apple.com/join/kcCS3hcZ) | [typewhisper-ios](https://github.com/TypeWhisper/typewhisper-ios) |
 
 ## What is TypeWhisper?
 
