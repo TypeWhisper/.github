@@ -13,7 +13,6 @@
 <p align="center">
   <a href="https://www.typewhisper.com">Website</a> &bull;
   <a href="https://www.typewhisper.com/docs">Docs</a> &bull;
-  <a href="https://www.typewhisper.com/blog">Blog</a> &bull;
   <a href="https://www.typewhisper.com/addons">Add-ons</a>
 </p>
 
@@ -34,13 +33,14 @@ TypeWhisper is a free, open-source speech-to-text app that runs entirely on your
 ### Highlights
 
 - **100% on-device** - All AI processing happens locally. No telemetry, no data collection, no network requests during transcription.
-- **Multiple speech engines** - Choose between WhisperKit (99+ languages), Parakeet TDT (fast European-language model), Apple Speech (macOS), and ONNX-based engines (Windows).
+- **Multiple speech engines** - Choose between WhisperKit, Parakeet TDT, Voxtral, Qwen3 ASR, Apple Speech (macOS), and ONNX-based engines (Windows). Cloud engines available via plugins.
 - **System-wide dictation** - Global hotkey with push-to-talk, toggle, or hybrid mode. Works in any app.
 - **Per-app profiles** - Automatically switch language, engine, and post-processing based on the active app or website.
 - **File transcription** - Drag and drop audio/video files, export subtitles as SRT or WebVTT.
 - **Local HTTP API** - Integrate with scripts, shortcuts, and automation tools.
-- **Plugin system** - Extend with cloud providers (Groq, OpenAI, Gemini), actions (Linear, Webhooks), and custom add-ons.
+- **Plugin system** - Extend with cloud providers (Groq, OpenAI, Gemini, Deepgram, AssemblyAI), actions, and custom add-ons.
 - **Dictionary and snippets** - Custom terms, corrections, and text expansions with dynamic placeholders.
+- **iOS keyboard** - Custom keyboard extension for voice input in any iOS app.
 
 ## Support the Project
 
