@@ -25,6 +25,8 @@
 | **macOS** | Available | [Releases](https://github.com/TypeWhisper/typewhisper-mac/releases) | [typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) |
 | **Windows** | Available | [Releases](https://github.com/TypeWhisper/typewhisper-win/releases) | [typewhisper-win](https://github.com/TypeWhisper/typewhisper-win) |
 | **iOS** | Beta | [TestFlight](https://testflight.apple.com/join/kcCS3hcZ) | [typewhisper-ios](https://github.com/TypeWhisper/typewhisper-ios) |
+| **Raycast** | Extension | - | [typewhisper-raycast](https://github.com/TypeWhisper/typewhisper-raycast) |
+| **Plugins** | Catalog | - | [typewhisper-plugins](https://github.com/TypeWhisper/typewhisper-plugins) |
 
 ## What is TypeWhisper?
 
@@ -33,14 +35,19 @@ TypeWhisper is a free, open-source speech-to-text app that runs entirely on your
 ### Highlights
 
 - **100% on-device** - All AI processing happens locally. No telemetry, no data collection, no network requests during transcription.
-- **Multiple speech engines** - Choose between WhisperKit, Parakeet TDT, Voxtral, Qwen3 ASR, Apple Speech (macOS), and ONNX-based engines (Windows). Cloud engines available via plugins.
+- **Multiple speech engines** - Choose between WhisperKit, Parakeet TDT, Voxtral, Qwen3 ASR, IBM Granite Speech, Apple Speech (macOS), and ONNX-based engines (Windows). Cloud engines available via plugins.
 - **System-wide dictation** - Global hotkey with push-to-talk, toggle, or hybrid mode. Works in any app.
 - **Per-app profiles** - Automatically switch language, engine, and post-processing based on the active app or website.
 - **File transcription** - Drag and drop audio/video files, export subtitles as SRT or WebVTT.
 - **Local HTTP API** - Integrate with scripts, shortcuts, and automation tools.
-- **Plugin system** - Extend with cloud providers (Groq, OpenAI, Gemini, Deepgram, AssemblyAI), actions, and custom add-ons.
+- **Plugin system** - Extend with 20+ cloud providers (OpenAI, Groq, Gemini, Deepgram, Google Cloud, Speechmatics, and more), actions, and custom add-ons.
 - **Dictionary and snippets** - Custom terms, corrections, and text expansions with dynamic placeholders.
 - **iOS keyboard** - Custom keyboard extension for voice input in any iOS app.
+- **Live Transcript** - Real-time transcription in a floating window, ideal for meetings and presentations.
+- **Post-processing pipeline** - AI-powered text refinement with LLM providers (OpenAI, Gemini, Groq, and more).
+- **App integrations** - Connect with Linear, Obsidian, and other tools via plugins.
+- **History and export** - Search your transcription history and export as Markdown or JSON.
+- **iOS Share Extension** - Send files from other apps directly to TypeWhisper for transcription.
 
 ## Support the Project
 
