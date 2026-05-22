@@ -26,7 +26,7 @@
 | **Windows** | Available | [Releases](https://github.com/TypeWhisper/typewhisper-win/releases) | [typewhisper-win](https://github.com/TypeWhisper/typewhisper-win) |
 | **iOS** | Beta | [TestFlight](https://testflight.apple.com/join/kcCS3hcZ) | [typewhisper-ios](https://github.com/TypeWhisper/typewhisper-ios) |
 | **Raycast** | Extension | - | [typewhisper-raycast](https://github.com/TypeWhisper/typewhisper-raycast) |
-| **Plugins** | Catalog | - | [typewhisper-plugins](https://github.com/TypeWhisper/typewhisper-plugins) |
+| **Add-ons** | Catalog | [Browse](https://www.typewhisper.com/addons) | Platform repositories |
 
 ## What is TypeWhisper?
 
@@ -49,11 +49,11 @@ TypeWhisper is a free, open-source speech-to-text app that runs entirely on your
 - **History and export** - Search your transcription history and export as Markdown or JSON.
 - **iOS Share Extension** - Send files from other apps directly to TypeWhisper for transcription.
 
-## Plugin Catalog Policy
+## Plugin Contributions
 
-Community plugins that connect to external providers must use access paths the provider authorizes for third-party integrations. Acceptable paths include user-provided API keys, official developer platform billing, documented third-party SDK or OAuth flows, and local-only integrations that do not impersonate provider accounts.
+Plugin contributions belong in the platform repository that owns the app integration: macOS plugins go to [typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac), and Windows plugins go to [typewhisper-win](https://github.com/TypeWhisper/typewhisper-win). The separate community plugin repository flow is being retired.
 
-Catalog plugins must not impersonate a provider's first-party client, use consumer subscription credentials as API access unless the provider explicitly supports that third-party path, or rely on unofficial OAuth clients, copied client IDs, hidden endpoints, or token refresh flows intended for another first-party product. See [typewhisper-plugins CONTRIBUTING.md](https://github.com/TypeWhisper/typewhisper-plugins/blob/main/CONTRIBUTING.md) for submission details.
+Plugins that connect to external providers must use access paths the provider authorizes for third-party integrations. They must not impersonate a provider's first-party client, use consumer subscription credentials as API access unless the provider explicitly supports that third-party path, or rely on unofficial OAuth clients, copied client IDs, hidden endpoints, or token refresh flows intended for another first-party product.
 
 ## Support the Project
 
