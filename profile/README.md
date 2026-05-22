@@ -49,6 +49,12 @@ TypeWhisper is a free, open-source speech-to-text app that runs entirely on your
 - **History and export** - Search your transcription history and export as Markdown or JSON.
 - **iOS Share Extension** - Send files from other apps directly to TypeWhisper for transcription.
 
+## Plugin Catalog Policy
+
+Community plugins that connect to external providers must use access paths the provider authorizes for third-party integrations. Acceptable paths include user-provided API keys, official developer platform billing, documented third-party SDK or OAuth flows, and local-only integrations that do not impersonate provider accounts.
+
+Catalog plugins must not impersonate a provider's first-party client, use consumer subscription credentials as API access unless the provider explicitly supports that third-party path, or rely on unofficial OAuth clients, copied client IDs, hidden endpoints, or token refresh flows intended for another first-party product. See [typewhisper-plugins CONTRIBUTING.md](https://github.com/TypeWhisper/typewhisper-plugins/blob/main/CONTRIBUTING.md) for submission details.
+
 ## Support the Project
 
 TypeWhisper is free and open source under GPLv3. If you find it useful, consider supporting development:
