@@ -24,7 +24,7 @@
 |----------|--------|----------|------------|
 | **macOS** | Available | [Releases](https://github.com/TypeWhisper/typewhisper-mac/releases) | [typewhisper-mac](https://github.com/TypeWhisper/typewhisper-mac) |
 | **Windows** | Available | [Releases](https://github.com/TypeWhisper/typewhisper-win/releases) | [typewhisper-win](https://github.com/TypeWhisper/typewhisper-win) |
-| **iOS** | Beta | [TestFlight](https://testflight.apple.com/join/kcCS3hcZ) | [typewhisper-ios](https://github.com/TypeWhisper/typewhisper-ios) |
+| **iOS** | Available | [App Store](https://apps.apple.com/us/app/typewhisper-app/id6759319267) | [typewhisper-ios](https://github.com/TypeWhisper/typewhisper-ios) |
 | **Raycast** | Extension | - | [typewhisper-raycast](https://github.com/TypeWhisper/typewhisper-raycast) |
 | **Add-ons** | Catalog | [Browse](https://www.typewhisper.com/addons) | Platform repositories |
 
