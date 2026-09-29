@@ -32,6 +32,10 @@ must be covered; the person opening the pull request cannot accept for everyone
 else. A DCO sign-off or cryptographic commit signature does not replace CLA
 acceptance.
 
+Acceptance covers future contributions. To cover a pull request that was already
+open when you accepted, explicitly select and confirm it in the signing portal.
+Previously merged contributions require separate explicit confirmation.
+
 Bug reports, questions, and discussions do not require signing. Forks of external
 projects follow their upstream contribution rules, rather than this CLA.
 

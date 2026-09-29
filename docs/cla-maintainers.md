@@ -1,9 +1,11 @@
 # Contributor agreement rollout
 
-`CLA.md` is the proposed version 1.0 agreement. `CONTRIBUTING.md` is the default
-for repositories in this organization that do not define their own contribution
-file. GitHub applies this default to public and private repositories. Existing
-repository-specific contribution files must link to the shared agreement.
+`CLA.md` is the proposed version 1.0 agreement. GitHub uses `CONTRIBUTING.md` from
+this repository's default branch for repositories in this organization that do
+not define their own contribution file. Changes on a pull request branch do not
+publish or update that default until merged. GitHub applies the default
+[regardless of the destination repository's visibility](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file#about-default-community-health-files).
+Existing repository-specific contribution files must link to the shared agreement.
 
 The signing service is hosted at https://app.typewhisper.com/cla. A single
 acceptance is tied to the signer's stable GitHub account ID and the exact
