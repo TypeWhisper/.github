@@ -16,21 +16,23 @@ lets you retain ownership of your work while granting TypeWhisper the rights to
 use, modify, distribute, and sublicense it, including under commercial terms.
 Read the complete agreement before accepting it.
 
-The organization-wide CLA is being prepared for activation. Until the signing
-process is available, maintainers must not treat this document or submission of
-a pull request as a signed agreement. Existing repository licenses continue to
-apply. This notice does not retroactively grant rights to earlier contributions.
-
-The agreement and signing process will be available at
+Read and accept the agreement at
 [app.typewhisper.com/cla](https://app.typewhisper.com/cla). Signing uses your GitHub
-account and does not require a paid TypeWhisper license.
+account and does not require a paid TypeWhisper license. Signing in or opening a
+pull request does not itself record acceptance.
 
-After activation, each contributor accepts the current agreement once for all
+Each contributor accepts the current agreement once for all
 covered TypeWhisper projects. A changed agreement version requires fresh
 acceptance. Every human contributor whose work is included in a pull request
 must be covered; the person opening the pull request cannot accept for everyone
 else. A DCO sign-off or cryptographic commit signature does not replace CLA
 acceptance.
+
+You can open a pull request before accepting. The `TypeWhisper CLA` check links
+to the signing portal and identifies contributors who still need to accept or
+confirm the pending pull request. It runs again after acceptance. Participating
+public repositories require a successful check for the current agreement before
+merging into the default branch, alongside their existing review and CI rules.
 
 Acceptance covers future contributions. To cover a pull request that was already
 open when you accepted, explicitly select and confirm it in the signing portal.
