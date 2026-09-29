@@ -22,8 +22,11 @@ commit authors, and coauthors. Contributor names are not evidence of acceptance.
   contributions.
 - Verify an unsigned contributor fails the check, explicit acceptance makes it
   pass, and an additional unsigned coauthor makes it fail again.
-- Require the `TypeWhisper CLA` check from the expected GitHub App on default
-  branches. Preserve existing required checks and branch protections.
+- Require the current agreement's `TypeWhisper CLA` check, including its version
+  and content hash in the check name, from the expected GitHub App on default
+  branches. Prepare the new required context before activating a replacement
+  agreement, then recheck all open PRs. Older successful checks must not satisfy
+  the new requirement. Preserve existing required checks and branch protections.
 - Where the GitHub plan cannot enforce checks, maintain a manual merge gate and
   record that limitation. Do not change repository visibility to enable a rule.
 - Replace the preparation notice in the contribution guides only once the
