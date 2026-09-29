@@ -1,6 +1,6 @@
 # Contributor agreement rollout
 
-`CLA.md` is the proposed version 1.0 agreement. GitHub uses `CONTRIBUTING.md` from
+`CLA.md` is the active version 1.0 agreement. GitHub uses `CONTRIBUTING.md` from
 this repository's default branch for repositories in this organization that do
 not define their own contribution file. Changes on a pull request branch do not
 publish or update that default until merged. GitHub applies the default
@@ -11,6 +11,13 @@ The signing service is hosted at https://app.typewhisper.com/cla. A single
 acceptance is tied to the signer's stable GitHub account ID and the exact
 agreement version. The `TypeWhisper CLA` GitHub App check verifies the PR author,
 commit authors, and coauthors. Contributor names are not evidence of acceptance.
+
+Signing was activated on 2026-09-29 for version 1.0, SHA-256
+`2151efa111d6e5472440bac77eeaf2e994d67336f5d62ed8eb4913cf8cbfc8dd`.
+The required check is bound to GitHub App ID `5126264` on the default branches
+of the twelve current public, non-fork, non-archived, non-empty repositories.
+New repositories need their own required-check rule before accepting merges;
+installing the app on all repositories does not create that rule automatically.
 
 ## Activation checklist
 
